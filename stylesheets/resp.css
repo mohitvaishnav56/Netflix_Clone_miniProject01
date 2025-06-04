@@ -1,0 +1,45 @@
+@media screen and (max-width: 600px) {
+    .main{
+        min-width: 100%;
+        padding-bottom: 20px;
+    }
+    .main .box{
+        min-width: 100%;
+        padding-bottom: 20px;
+    }
+    nav{
+        padding: 0;
+    }
+    nav div{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    } 
+    nav div button{
+        transform: scale(0.80);
+        font-size: 10px;
+        text-wrap: nowrap;  
+    }
+
+    nav img{
+        width: 90px;
+    }
+    
+    .hero{
+        text-align: center;
+    }
+
+    .card{
+        min-width: 100%;
+    }
+
+    .reason{
+        min-height: max-content;
+    }
+
+    .reason-card{
+        width: 100%;
+        gap: 20px;
+        padding: 0;
+    }
+}
